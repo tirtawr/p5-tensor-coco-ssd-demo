@@ -1,0 +1,23 @@
+{
+  "name": "p5-tensor-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http-server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tirtawr/p5-tensor-demo.git"
+  },
+  "author": "tirtawening@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tirtawr/p5-tensor-demo/issues"
+  },
+  "homepage": "https://github.com/tirtawr/p5-tensor-demo#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
