@@ -39,15 +39,13 @@ function draw() {
                 stroke('rgb(0,255,0)');
                 strokeWeight(4);
                 line(leftX, topY, rightX, topY);
-                // stroke('rgb(0,255,0)');
-                // strokeWeight(4);
                 line(leftX, bottomY, rightX, bottomY);
-                // stroke('rgb(0,255,0)');
-                // strokeWeight(4);
                 line(leftX, topY, leftX, bottomY);
-                // stroke('rgb(0,255,0)');
-                // strokeWeight(4);
                 line(rightX, topY, rightX, bottomY);
+                // rect(leftX, topY, 120, 40);
+                textSize(18);
+                fill(0);
+                text(prediciton.class, leftX, topY, 120, 40); // Text wraps within text box
             }
             console.log('prediction done');
         });
